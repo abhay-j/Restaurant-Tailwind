@@ -3,59 +3,8 @@ import React, { useState } from "react";
 import MenuItem from "./menuitem";
 import MenuContainerComponent from "./menuContainerComponent";
 import MenuSection from "../menuDemo/menusection";
-// Define your menu items
-const menuItems = {
-  All: [
-    { name: "Item 1", description: "Description of Item 1" },
-    { name: "Item 2", description: "Description of Item 2" },
-    { name: "Vegan Item 1", description: "Description of Vegan Item 1" },
-    { name: "Vegan Item 2", description: "Description of Vegan Item 2" },
-    {
-      name: "Gluten Free Item 1",
-      description: "Description of Glutton Free Item 1",
-    },
-    {
-      name: "Gluten Free Item 2",
-      description: "Description of Glutton Free Item 2",
-    },
-    {
-      name: "Allergy Free Item 1",
-      description: "Description of Allergy Free Item 1",
-    },
-    {
-      name: "Allergy Free Item 2",
-      description: "Description of Allergy Free Item 2",
-    },
-    // Add more items as needed
-  ],
-  Vegan: [
-    { name: "Vegan Item 1", description: "Description of Vegan Item 1" },
-    { name: "Vegan Item 2", description: "Description of Vegan Item 2" },
-    // Add more items as needed
-  ],
-  "Gluten free": [
-    {
-      name: "Gluten Free Item 1",
-      description: "Description of Gluten Free Item 1",
-    },
-    {
-      name: "Gluten Free Item 2",
-      description: "Description of Glutton Free Item 2",
-    },
-    // Add more items as needed
-  ],
-  "Allergy Free menu": [
-    {
-      name: "Allergy Free Item 1",
-      description: "Description of Allergy Free Item 1",
-    },
-    {
-      name: "Allergy Free Item 2",
-      description: "Description of Allergy Free Item 2",
-    },
-    // Add more items as needed
-  ],
-};
+
+
 
 // Functional components
 function CoverImage() {
@@ -70,6 +19,11 @@ function CoverImage() {
     </div>
   );
 }
+
+
+
+ 
+
 
 function MenuPage() {
   
